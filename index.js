@@ -20,6 +20,6 @@ function iLoveTheBeatles(number) {
     do {
         array[i] = "I love the Beatles!"
         i++;
-    } while (i < Math.abs(number-15));
+    } while (number < 15);
     return array
 }
